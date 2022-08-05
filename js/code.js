@@ -21,7 +21,7 @@ function Bienvenidos() {
 Bienvenidos();
 
 const precioTotal = (precio) => {return precio*1.21}
-let ropa = prompt("Elige la prenda que quieras comprar: Remera\n Camisa\n Chomba\n Musculosa\n Jean\n Jogger\nJoggin\nPantalon\nCampera\nZapatillas\n Para Finalizar su Compra presione Salir")
+let ropa = prompt("Elige la prenda que quieras comprar: Remera\n Camisa\n Chomba\n Musculosa\n Jean\n Jogger\nJoggin\nPantalon\nCampera\nZapatillas\n Para Finalizar su Compra presione Salir").toLowerCase();
 let precio = 0;
 let ahora = new Date();
 
@@ -97,7 +97,7 @@ switch(ropa){
 
   
 }
-      ropa= prompt("Ingresa la prenda que quieres comprar: Remera\n Camisa\n Chomba\n Musculosa\n Jean\n Jogger\nJoggin\nPantalon\nCampera\nZapatillas\n Para Finalizar su Compra presione Salir")
+      ropa= prompt("Ingresa la prenda que quieres comprar: Remera\n Camisa\n Chomba\n Musculosa\n Jean\n Jogger\nJoggin\nPantalon\nCampera\nZapatillas\n Para Finalizar su Compra presione Salir").toLowerCase();
    }
 
    console.table(ropas)
